@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Авторизация</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Style4.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="rat.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="bg-dark collapse show" id="navbarHeader" style="">
+        <div class="container">
+          <div class="row">
+            <div style="display: inline-block; width: 900px" class="name">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h1 class="text-white">Длинный хвостик</h1>
+                <p class="text-white">Очень крутой магазин</p>
+              </div>
+            </div>
+            <div
+              style="display: inline-block; width: 300px"
+              class="col-sm-4 offset-md-1 py-2"
+            >
+              <h4 class="text-white">Навигация по сайту</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="pg2.html" class="text-white">Категории товаров</a>
+                </li>
+                <li>
+                  <a href="pg5.html" class="text-white">Уход за грызунами</a>
+                </li>
+                <li>
+                  <a href="pg3.html" class="text-white">О нас</a>
+                </li>
+                <li><a href="pg4.html" class="text-white">Авторизация</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="FirstType">
+      <form action="index.html">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Адрес электронной почты</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Введите Ваш Email"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Мы не передаём Ваш Email третьим лицам.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Пароль</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Пароль"
+          />
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Запомнить меня</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+      </form>
+    </div>
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Наверх</a>
+      </p>
+      <p class="mb-1">Томск, Вершинина 39а, 634034</p>
+      <p class="mb-0">
+        Остались вопросы? Свяжитесь с нами! <a class="text-black" href="tel:+78005553535">Звонок</a>
+      </p>
+    </div>
+    <script scr="~/js/bootstrap.min.js"></script>
+  </body>
+</html>

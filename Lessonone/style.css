@@ -1,0 +1,55 @@
+body {
+  background: rgb(255, 250, 240);
+}
+.x,.xx,.zz {
+  text-align: center;
+}
+img {
+   height: 352px;
+   width: 288px
+}
+.FirstType {
+   margin-top: 40px;
+   margin-bottom: 50px;
+   padding-left: 50px;    align-self: start;
+   padding-right: 00px;
+ }
+
+.container2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item-name {
+  margin: 0;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.item-description {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.cost {
+   font-size: 16px;
+   text-align: center;
+}
